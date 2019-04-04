@@ -1,0 +1,24 @@
+	.widget-bestiaire .book{
+		background-color: #cccccc;
+		width: 160px;
+		height: 200px;
+		border: 3px solid #888888;
+		border-radius: 3px;
+	}
+	.widget-bestiaire .book.closed{
+		width: 80px;
+	}
+	.widget-bestiaire .book .page{
+		background-color: #cccccc;
+		margin: 5px 5px 0 0;
+		width: 150px;
+		height: 300px;		
+	}
+	.widget-bestiaire .book.closed .page{
+		display:none;	
+	}
+	.bestiaire-mob img
+	{
+		max-width: 640px;
+		max-height: 480px;
+	}
